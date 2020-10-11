@@ -1,0 +1,27 @@
+body{
+    background-color:#81F7F3;
+}
+.title{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+h3
+{
+    text-shadow: 2px 2px 5px #DA81F5;
+}
+
+.rejilla{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px
+}
+
+.ol{
+    background-color: rgba(0, 128, 0, 0.3);
+
+}
+ul{
+    font-style: italic;
+}
+
