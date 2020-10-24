@@ -6,7 +6,7 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 20%; 
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: center;
 }
 .title{
@@ -17,7 +17,7 @@ body{
     padding: 1em;
 } 
 img{
-    border-radius: 8%;
+    border-radius: 5%;
 } 
 .flex_img_ing{
     flex-grow: initial;
@@ -34,4 +34,10 @@ ul.a{
 .prepare{
  text-align: justify;  
  padding: 1em;
+}
+.additional{
+    display: block;
+    margin-left: auto;
+    margin-right:25%;
+    width: 45%;
 }
