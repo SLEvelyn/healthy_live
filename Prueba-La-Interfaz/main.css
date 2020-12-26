@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: white;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+}
+
+.header a {
+  float: left;
+  display: block;
+  padding: 16px 16px;
+  font-size: 17px;
+}
+.menu-right {
+  float: right;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.header img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 25%;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+}
+
+.card-info {
+  background-color: #223c3d;
+  display: flex;
+  padding: 10%;
+}
+
+.card-info div {
+  font-weight: 500;
+  font-size: 24px;
+  color: #5e9c75;
+  margin: 0 auto;
+}
+
+.contact {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.contact-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px auto;
+}
+.contact-subtitle {
+  font-size: 20px;
+  color: grey;
+  margin-top: 8px;
+  margin-bottom: 22px;
+}
+.contact button {
+  border: none;
+  font-weight: bold;
+  border-radius: 24px;
+  background-color: #265fac;
+  color: white;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .header a {
+    display: block;
+    padding: 16px 16px;
+    font-size: 17px;
+    margin: 10 auto;
+  }
+  .menu-right {
+    float: none;
+    display: flex;
+  }
+
+  .header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}

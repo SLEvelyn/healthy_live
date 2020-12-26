@@ -1,0 +1,34 @@
+html{
+    background-color: white;
+  
+}
+body{
+    background-color: thistle;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%; 
+    margin-top: 3%;
+}
+.header{
+  display: flex;
+  margin: auto;
+}
+.header a{
+    float: left;
+    padding: 12px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    height: auto;
+}
+.img{
+    display: block;
+    margin-left: 10%;
+    margin-right:25%;
+    width: 100%;
+}
