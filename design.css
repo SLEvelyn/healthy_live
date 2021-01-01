@@ -35,8 +35,9 @@ ul.a{
 }
 .image{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     flex: 1;
+    justify-content: space-between;
     align-items: center;
     padding: 1em;
 }
