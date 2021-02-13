@@ -1,0 +1,48 @@
+html{
+    background-color: #FAE5D3;
+}
+body{
+    background-color:#FDFEFE;
+    box-shadow: 0 4px 8px 0 rgb(211, 94, 100), 0 6px 20px 0 rgba(85, 18, 211, 0.19);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%; 
+    margin-top: 3%;
+}
+h1{
+    text-shadow: 2px 2px 5px #9F81F7;
+    text-align: center;
+}
+h4{
+    text-shadow: 2px 2px 5px #9F81F7;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.box_ingredients_multimedia{
+    display: flex;
+}
+.ingredientes{
+    flex: 1;
+    padding: 1em;
+}
+.cake{
+    border-radius: 5%;
+}
+ul.a{
+    list-style-type: square;
+}
+.image, video{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+.preparacion{
+    text-align: justify;
+    padding: 1em;
+}
