@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FAE5D3;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(235, 208, 183)
+}
+
+.box h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: #f37c14;
+    text-transform: uppercase;
+}
+
+.box input{
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+.box input{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid #adadad ;
+}
+
+
+
+.box form div {
+    position: relative;
+}
+
+.box form div label{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #999;
+    transition: .5s;
+    pointer-events: none;   
+}
+
+.box input:focus ~ label,
+.box input:valid ~ label
+{
+   top: -12px; 
+   left: 0;
+   color: #f37c14;
+   font-size: 12px;
+   font-weight: bold;
+  
+} 
+
+.box input:focus,
+.box input:valid
+ {
+    border-bottom: 2px solid #f37c14;
+}
+
+.box button:hover {
+    background-image: linear-gradient(to left,#e2b48b, #8121ff);
+}
+
+button {
+    padding: 10px 0;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border:  none;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#e2b48b, #8121ff);
+    margin-bottom: 0;
+    text-transform: uppercase;
+}

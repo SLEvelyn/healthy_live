@@ -1,51 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Live</title>
-    <link rel="stylesheet" href="./css/singup.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./css/sing2.css" type="text/css" media="all">
+    <script defer src="./js/script.js"></script>
 </head>
+
 <body>
-    <div class="limiter">
-        <div class="container-login100">
-            <div class="wrap-login100">
-            <form class="login100-form validate-form">
-                <span class="login100-form-title p-b-26">
-                    Healthy Live
-                </span>
+    <div class="principal_box">
+        <div class="second_box">
+            <div class="third_box">
+                <form class="data_information"  onsubmit="return validate()" action="pageWeb.html">
+                    <span class="header">Healthy Live</span>
 
+                    <div class="info_input ">
+                        <input class="internal" id="email" type="email" name="" required>
+                        
+                        <label for="" class="holder">
+                            <span class="content">Email</span>
+                        </label>
+                        
+                    </div>
+                    <small id="error" style="color: red; visibility: hidden;">Error</small>
+                    <div class="info_input">
+                        <input id="password" class="internal" type="password" name="password" required>
+                        <label for="" class="holder">
+                            <span class="content">Password</span>
+                        </label>
+                    </div>
 
-
-                <div class="wrap-input100">
-                    <input class="input100" type="text" name="username">
-                    <span class="focus-input100" data-placeholder="Username"></span>
-                </div>
-                
-                <div class="wrap-input100">
-                    <span class="btn-show-pass">
-                        <i class="zmdi zmdi-eye"></i>
-                    </span>
-                    <input class="input100" type="password" name="pass" >
-                    <span class="focus-input100" data-placeholder="Password"></span>
-                </div>
-
-                <div class="container-login100-form-btn">
-                    <div class="wrap-login100-form-btn">
-                        <div class="login100-form-bgbtn">
-                            <button class="login100-form-btn">
-                                Sing up
-                            </button>
+                    <div class="container">
+                        <div class="container_two">
+                            <div class="container_three">
+                            <button  class="login" type="submit">Login</button>
                         </div>
                     </div>
-                </div>
-            
-            </form>
 
-        </div>
-
+                </form>
+            </div>
         </div>
 
     </div>
 </body>
+
 </html>

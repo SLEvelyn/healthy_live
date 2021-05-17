@@ -98,9 +98,11 @@ textarea {
   border: none;
 }
 
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
 
-
-/* input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; }
 input:focus::-moz-placeholder { color:transparent; }
 input:focus:-ms-input-placeholder { color:transparent; }
@@ -118,7 +120,7 @@ input:-ms-input-placeholder { color: #adadad;}
 textarea::-webkit-input-placeholder { color: #adadad;}
 textarea:-moz-placeholder { color: #adadad;}
 textarea::-moz-placeholder { color: #adadad;}
-textarea:-ms-input-placeholder { color: #adadad;} */
+textarea:-ms-input-placeholder { color: #adadad;}
 
 /*---------------------------------------------*/
 button {
@@ -261,7 +263,7 @@ iframe {
   background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
   background: -o-linear-gradient(left, #21d4fd, #b721ff);
   background: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  background: linear-gradient(left, #21d4fd, #b721ff);
+  
 }
 
 .focus-input100::after {
@@ -289,10 +291,10 @@ iframe {
 }
 
 .input100:focus + .focus-input100::before {
-  width: 100%;
+  width: 50%;
 }
 
-.has-val.input100 + .focus-input100::after {
+.has-val.input100.input100 + .focus-input100::after {
   top: -15px;
 }
 
@@ -358,7 +360,7 @@ iframe {
   width: 100%;
   display: block;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   border-radius: 25px;
   overflow: hidden;
   margin: 0 auto;
@@ -369,11 +371,11 @@ iframe {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background: red;
+  background: #a64bf4;
   background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
   background: -o-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
-  background: linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+  /* background: -moz-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff); */
+  /* background: linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff); */
   top: 0;
   left: -100%;
 
@@ -421,7 +423,9 @@ iframe {
 /*------------------------------------------------------------------
 [ Alert validate ]*/
 
-
+.validate-input {
+  position: relative;
+}
 
 .alert-validate::before {
   content: attr(data-validate);
